@@ -143,7 +143,40 @@ main{
 .plant-info{
     justify-items: center;
 }
+/* flower & plants lover style */
+.lover-container{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    position: relative;
+}
+.lover-img{
+    width: 100%;
+}
+.plant-lover{
+    margin-top: 210px;
+}
+.list-ul li{
+    font-size: 1.15rem;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+}
+.plant-lover-container{
+  justify-content:  center;
+    
+}
+.lover-title{
+    font-size: 3rem;
+    font-weight: bold;
 
+}
+.badge{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: -6.25rem;
+    right: 31.87rem;
+}
 /* responsive style for mobile devices */
 @media screen and (max-width:576px) {
     .li{
@@ -157,7 +190,7 @@ main{
     .banner-container{
     order: 2;
     }
-    .banner{
+    .banner, .lover-container{
         flex-direction: column;
     }
     .plant-cart{
@@ -169,5 +202,8 @@ main{
     }
     .primary-btn{
         padding: 20px 30px;
+    }
+    .lover-container{
+        position: none;
     }
 }
