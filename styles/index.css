@@ -32,7 +32,9 @@ body{
 .gray-color-1{
     color: rgba(0, 0, 0, 0.5);
 }
-
+.font-color-2{
+    color: #E95A08;
+}
 
 /* header style */
 .header{
@@ -69,6 +71,24 @@ body{
     
 }
 
+/* banner style */
+.banner{
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.banner-title{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.banner-description{
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.5)
+}
+.banner img{
+    width: 100%;
+    
+}
 /* responsive style for mobile devices */
 @media screen and (max-width:576px) {
     .li{
@@ -81,5 +101,10 @@ body{
     .list{
         gap: 0;
     }
-    
+    .banner-container{
+    order: 2;
+    }
+    .banner{
+        flex-direction: column;
+    }
 }
